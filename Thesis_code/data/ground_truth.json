@@ -1,0 +1,137 @@
+[
+  {
+    "path": "cmd_injection/01__Trigger.py",
+    "cwe_id": "CWE-78",
+    "cve_id": "CVE-2012-3366"
+  },
+  {
+    "path": "cmd_injection/02__views.py",
+    "cwe_id": "CWE-78",
+    "cve_id": "CVE-2020-7698"
+  },
+  {
+    "path": "cmd_injection/03__common_func.py",
+    "cwe_id": "CWE-78",
+    "cve_id": "CVE-2022-1813"
+  },
+  {
+    "path": "cmd_injection/04__vcs.py",
+    "cwe_id": "CWE-78",
+    "cve_id": "CVE-2022-24065"
+  },
+  {
+    "path": "cmd_injection/06__terminal.py",
+    "cwe_id": "CWE-78",
+    "cve_id": "CVE-2023-24816"
+  },
+  {
+    "path": "cmd_injection/07__lollms_advanced.py",
+    "cwe_id": "CWE-78",
+    "cve_id": "CVE-2024-1520"
+  },
+  {
+    "path": "cmd_injection/08__execute_code.py",
+    "cwe_id": "CWE-78",
+    "cve_id": "CVE-2024-1881"
+  },
+  {
+    "path": "sqli/01__general.py",
+    "cwe_id": "CWE-89",
+    "cve_id": ""
+  },
+  {
+    "path": "sqli/02__mixins.py",
+    "cwe_id": "CWE-89",
+    "cve_id": ""
+  },
+  {
+    "path": "sqli/03__test_aggregates.py",
+    "cwe_id": "CWE-89",
+    "cve_id": ""
+  },
+  {
+    "path": "sqli/04____init__.py",
+    "cwe_id": "CWE-89",
+    "cve_id": ""
+  },
+  {
+    "path": "sqli/05__group_controller.py",
+    "cwe_id": "CWE-89",
+    "cve_id": ""
+  },
+  {
+    "path": "sqli/06__user_controller.py",
+    "cwe_id": "CWE-89",
+    "cve_id": ""
+  },
+  {
+    "path": "sqli/07__test_integration.py",
+    "cwe_id": "CWE-89",
+    "cve_id": ""
+  },
+  {
+    "path": "sqli/08__app.py",
+    "cwe_id": "CWE-89",
+    "cve_id": ""
+  },
+  {
+    "path": "sqli/09__model.py",
+    "cwe_id": "CWE-89",
+    "cve_id": ""
+  },
+  {
+    "path": "sqli/10__flair.py",
+    "cwe_id": "CWE-89",
+    "cve_id": ""
+  },
+  {
+    "path": "xss/01__ZRPythonExpr.py",
+    "cwe_id": "CWE-79",
+    "cve_id": ""
+  },
+  {
+    "path": "xss/02__testZRPythonExpr.py",
+    "cwe_id": "CWE-79",
+    "cve_id": ""
+  },
+  {
+    "path": "xss/03__Image.py",
+    "cwe_id": "CWE-79",
+    "cve_id": ""
+  },
+  {
+    "path": "xss/04__testFileAndImage.py",
+    "cwe_id": "CWE-79",
+    "cve_id": ""
+  },
+  {
+    "path": "xss/05__reviewtags.py",
+    "cwe_id": "CWE-79",
+    "cve_id": ""
+  },
+  {
+    "path": "xss/06__test_views.py",
+    "cwe_id": "CWE-79",
+    "cve_id": ""
+  },
+  {
+    "path": "xss/07__http.py",
+    "cwe_id": "CWE-79",
+    "cve_id": ""
+  },
+  {
+    "path": "xss/08__widgets.py",
+    "cwe_id": "CWE-79",
+    "cve_id": ""
+  },
+  {
+    "path": "xss/09__tests.py",
+    "cwe_id": "CWE-79",
+    "cve_id": ""
+  },
+  {
+    "path": "xss/10__http.py",
+    "cwe_id": "CWE-79",
+    "cve_id": ""
+  }
+]
