@@ -1,0 +1,692 @@
+{
+  "data/django/contrib/auth/tests/test_views.py": {
+    "filename": "xss/06__test_views.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 50
+      },
+      {
+        "cwe": "CWE-74",
+        "cwe_description": "Injection",
+        "line": 50
+      },
+      {
+        "cwe": "CWE-601",
+        "cwe_description": "URL Redirection to Untrusted Site ('Open Redirect')",
+        "line": 150
+      },
+      {
+        "cwe": "CWE-352",
+        "cwe_description": "Cross-Site Request Forgery (CSRF)",
+        "line": 200
+      },
+      {
+        "cwe": "CWE-307",
+        "cwe_description": "Improper Restriction of Excessive Authentication Attempts",
+        "line": 300
+      }
+    ],
+    "source": "agent"
+  },
+  "data/django/utils/http.py": {
+    "filename": "xss/10__http.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-74",
+        "cwe_description": "Injection",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-79",
+        "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+        "line": 1
+      }
+    ],
+    "source": "agent"
+  },
+  "data/reviewboard/reviews/templatetags/reviewtags.py": {
+    "filename": "xss/05__reviewtags.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-79",
+        "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 1
+      }
+    ],
+    "source": "agent"
+  },
+  "data/src/OFS/Image.py": {
+    "filename": "xss/03__Image.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 12
+      },
+      {
+        "cwe": "CWE-74",
+        "cwe_description": "Injection of Functionality into the Application via External Input",
+        "line": 12
+      },
+      {
+        "cwe": "CWE-22",
+        "cwe_description": "Improper Limitation of a Pathname to a Restricted Directory (Path Traversal)",
+        "line": 12
+      },
+      {
+        "cwe": "CWE-200",
+        "cwe_description": "Information Exposure",
+        "line": 12
+      },
+      {
+        "cwe": "CWE-601",
+        "cwe_description": "URL Redirection to Untrusted Site ('Open Redirect')",
+        "line": 12
+      }
+    ],
+    "source": "agent"
+  },
+  "data/src/Products/PageTemplates/tests/testZRPythonExpr.py": {
+    "filename": "xss/02__testZRPythonExpr.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 8
+      },
+      {
+        "cwe": "CWE-74",
+        "cwe_description": "Injection",
+        "line": 8
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 18
+      },
+      {
+        "cwe": "CWE-74",
+        "cwe_description": "Injection",
+        "line": 18
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 28
+      },
+      {
+        "cwe": "CWE-74",
+        "cwe_description": "Injection",
+        "line": 28
+      }
+    ],
+    "source": "agent"
+  },
+  "data/django/contrib/admin/widgets.py": {
+    "filename": "xss/08__widgets.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-79",
+        "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+        "line": 40
+      },
+      {
+        "cwe": "CWE-79",
+        "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+        "line": 90
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 150
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 200
+      }
+    ],
+    "source": "agent"
+  },
+  "data/tests/admin_widgets/tests.py": {
+    "filename": "xss/09__tests.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-74",
+        "cwe_description": "Injection",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-22",
+        "cwe_description": "Path Traversal",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-79",
+        "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 1
+      }
+    ],
+    "source": "agent"
+  },
+  "data/src/Products/PageTemplates/ZRPythonExpr.py": {
+    "filename": "xss/01__ZRPythonExpr.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-94",
+        "cwe_description": "Code Injection",
+        "line": 12
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 10
+      },
+      {
+        "cwe": "CWE-77",
+        "cwe_description": "Command Injection",
+        "line": 12
+      }
+    ],
+    "source": "agent"
+  },
+  "data/src/OFS/tests/testFileAndImage.py": {
+    "filename": "xss/04__testFileAndImage.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-22",
+        "cwe_description": "Path Traversal",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-434",
+        "cwe_description": "Unrestricted File Upload",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-79",
+        "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-125",
+        "cwe_description": "Out-of-bounds Read",
+        "line": 1
+      }
+    ],
+    "source": "agent"
+  },
+  "data/auth/controllers/user_controller.py": {
+    "filename": "sqli/06__user_controller.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 12
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "SQL Injection",
+        "line": 56
+      },
+      {
+        "cwe": "CWE-74",
+        "cwe_description": "Injection",
+        "line": 56
+      },
+      {
+        "cwe": "CWE-400",
+        "cwe_description": "Uncontrolled Resource Consumption",
+        "line": 56
+      }
+    ],
+    "source": "agent"
+  },
+  "data/tests/postgres_tests/test_aggregates.py": {
+    "filename": "sqli/03__test_aggregates.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-74",
+        "cwe_description": "Injection of Function Call Argument with Untrusted Data",
+        "line": 1
+      }
+    ],
+    "source": "agent"
+  },
+  "data/app.py": {
+    "filename": "sqli/08__app.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 30
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 56
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 78
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 104
+      }
+    ],
+    "source": "agent"
+  },
+  "data/mod_fun/__init__.py": {
+    "filename": "sqli/04____init__.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 1
+      }
+    ],
+    "source": "agent"
+  },
+  "data/django/contrib/postgres/aggregates/mixins.py": {
+    "filename": "sqli/02__mixins.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 8
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 5
+      }
+    ],
+    "source": "agent"
+  },
+  "data/tests/test_integration.py": {
+    "filename": "sqli/07__test_integration.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 12
+      },
+      {
+        "cwe": "CWE-74",
+        "cwe_description": "Injection",
+        "line": 20
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 36
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 54
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 72
+      }
+    ],
+    "source": "agent"
+  },
+  "data/django/contrib/postgres/aggregates/general.py": {
+    "filename": "sqli/01__general.py",
+    "vulnerabilities": [],
+    "source": "agent"
+  },
+  "data/flair.py": {
+    "filename": "sqli/10__flair.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 7
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 15
+      }
+    ],
+    "source": "agent"
+  },
+  "data/redports-trac/redports/model.py": {
+    "filename": "sqli/09__model.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 40
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 66
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 92
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 118
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 144
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 170
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 196
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 222
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 248
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 274
+      }
+    ],
+    "source": "agent"
+  },
+  "data/auth/controllers/group_controller.py": {
+    "filename": "sqli/05__group_controller.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 20
+      },
+      {
+        "cwe": "CWE-89",
+        "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "line": 38
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 45
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 54
+      }
+    ],
+    "source": "agent"
+  },
+  "data/Data/views.py": {
+    "filename": "cmd_injection/02__views.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-78",
+        "cwe_description": "Improper Neutralization of Special Elements used in a Command ('Command Injection')",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-22",
+        "cwe_description": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-434",
+        "cwe_description": "Unrestricted Upload of File with Dangerous Type",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-404",
+        "cwe_description": "Improper Resource Shutdown or Release",
+        "line": 1
+      }
+    ],
+    "source": "agent"
+  },
+  "data/endpoints/lollms_advanced.py": {
+    "filename": "cmd_injection/07__lollms_advanced.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-78",
+        "cwe_description": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+        "line": 56
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 45
+      },
+      {
+        "cwe": "CWE-22",
+        "cwe_description": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')",
+        "line": 78
+      },
+      {
+        "cwe": "CWE-77",
+        "cwe_description": "Command Injection",
+        "line": 56
+      },
+      {
+        "cwe": "CWE-94",
+        "cwe_description": "Code Injection",
+        "line": 56
+      },
+      {
+        "cwe": "CWE-601",
+        "cwe_description": "URL Redirection to Untrusted Site ('Open Redirect')",
+        "line": 56
+      }
+    ],
+    "source": "agent"
+  },
+  "data/web/reNgine/common_func.py": {
+    "filename": "cmd_injection/03__common_func.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-74",
+        "cwe_description": "Injection",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-22",
+        "cwe_description": "Improper Limitation of a Pathname to a Restricted Directory (Path Traversal)",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-78",
+        "cwe_description": "OS Command Injection",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-119",
+        "cwe_description": "Improper Restriction of Operations within the Bounds of a Memory Buffer",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-200",
+        "cwe_description": "Information Exposure",
+        "line": 1
+      }
+    ],
+    "source": "agent"
+  },
+  "data/IPython/utils/terminal.py": {
+    "filename": "cmd_injection/06__terminal.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-78",
+        "cwe_description": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+        "line": 10
+      },
+      {
+        "cwe": "CWE-78",
+        "cwe_description": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+        "line": 20
+      },
+      {
+        "cwe": "CWE-78",
+        "cwe_description": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+        "line": 40
+      },
+      {
+        "cwe": "CWE-78",
+        "cwe_description": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+        "line": 60
+      }
+    ],
+    "source": "agent"
+  },
+  "data/cookiecutter/vcs.py": {
+    "filename": "cmd_injection/04__vcs.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-78",
+        "cwe_description": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-22",
+        "cwe_description": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')",
+        "line": 1
+      }
+    ],
+    "source": "agent"
+  },
+  "data/autogpts/autogpt/autogpt/commands/execute_code.py": {
+    "filename": "cmd_injection/08__execute_code.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-78",
+        "cwe_description": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-22",
+        "cwe_description": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')",
+        "line": 1
+      },
+      {
+        "cwe": "CWE-94",
+        "cwe_description": "Code Injection",
+        "line": 1
+      }
+    ],
+    "source": "agent"
+  },
+  "data/src/lib/Bcfg2/Server/Plugins/Trigger.py": {
+    "filename": "cmd_injection/01__Trigger.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-78",
+        "cwe_description": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+        "line": 8
+      },
+      {
+        "cwe": "CWE-20",
+        "cwe_description": "Improper Input Validation",
+        "line": 20
+      },
+      {
+        "cwe": "CWE-22",
+        "cwe_description": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')",
+        "line": 20
+      }
+    ],
+    "source": "agent"
+  }
+}

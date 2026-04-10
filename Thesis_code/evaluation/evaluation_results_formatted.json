@@ -1,0 +1,800 @@
+{
+  "evaluation_metadata": {
+    "mode": "relaxed",
+    "description": "Valutazione comparativa di due agenti di rilevamento vulnerabilità CWE"
+  },
+  "agents": {
+    "agent": {
+      "overall_metrics": {
+        "true_positives": 8,
+        "false_positives": 4,
+        "false_negatives": 17,
+        "partial_matches": 2,
+        "over_detections": 0,
+        "precision": 0.667,
+        "recall": 0.32,
+        "f1_score": 0.432
+      },
+      "summary_statistics": {
+        "total_files_analyzed": 25,
+        "exact_matches": 6,
+        "partial_matches": 2,
+        "complete_misses": 16,
+        "over_detections": 0
+      },
+      "detailed_results": [
+        {
+          "filename": "cwefixes/src/Products/PageTemplates/Expressions.py",
+          "ground_truth_cwes": ["CWE-22"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-22"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/src/Products/PageTemplates/expression.py",
+          "ground_truth_cwes": ["CWE-22"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-22"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/src/Products/PageTemplates/tests/testChameleonTalesExpressions.py",
+          "ground_truth_cwes": ["CWE-22"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-22"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/src/Products/PageTemplates/tests/testExpressions.py",
+          "ground_truth_cwes": ["CWE-22"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-22"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/src/Products/PageTemplates/tests/testHTMLTests.py",
+          "ground_truth_cwes": ["CWE-22"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-22"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/nova/image/s3.py",
+          "ground_truth_cwes": ["CWE-22"],
+          "predicted_cwes": ["CWE-22"],
+          "correct_cwes": ["CWE-22"],
+          "missed_cwes": [],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 1,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "status": "exact_match",
+          "exact_match": true
+        },
+        {
+          "filename": "cwefixes/django/contrib/postgres/aggregates/general.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-89"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/django/contrib/postgres/aggregates/mixins.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": ["CWE-20"],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-89"],
+          "extra_cwes": ["CWE-20"],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 1
+          },
+          "status": "all_wrong",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/tests/postgres_tests/test_aggregates.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-89"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/mod_fun/__init__.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": ["CWE-89"],
+          "correct_cwes": ["CWE-89"],
+          "missed_cwes": [],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 1,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "status": "exact_match",
+          "exact_match": true
+        },
+        {
+          "filename": "cwefixes/auth/controllers/group_controller.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": ["CWE-89"],
+          "correct_cwes": ["CWE-89"],
+          "missed_cwes": [],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 1,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "status": "exact_match",
+          "exact_match": true
+        },
+        {
+          "filename": "cwefixes/auth/controllers/user_controller.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": ["CWE-89"],
+          "correct_cwes": ["CWE-89"],
+          "missed_cwes": [],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 1,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "status": "exact_match",
+          "exact_match": true
+        },
+        {
+          "filename": "cwefixes/tests/test_integration.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-89"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/app.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": ["CWE-285", "CWE-489", "CWE-89"],
+          "correct_cwes": ["CWE-89"],
+          "missed_cwes": [],
+          "extra_cwes": ["CWE-285", "CWE-489"],
+          "metrics": {
+            "true_positives": 1,
+            "false_positives": 2,
+            "false_negatives": 0
+          },
+          "status": "partial_with_overdetection",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/redports-trac/redports/model.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": ["CWE-20", "CWE-89"],
+          "correct_cwes": ["CWE-89"],
+          "missed_cwes": [],
+          "extra_cwes": ["CWE-20"],
+          "metrics": {
+            "true_positives": 1,
+            "false_positives": 1,
+            "false_negatives": 0
+          },
+          "status": "partial_with_overdetection",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/flair.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": ["CWE-89"],
+          "correct_cwes": ["CWE-89"],
+          "missed_cwes": [],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 1,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "status": "exact_match",
+          "exact_match": true
+        },
+        {
+          "filename": "cwefixes/src/Products/PageTemplates/ZRPythonExpr.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-79"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/src/Products/PageTemplates/tests/testZRPythonExpr.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-79"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/src/OFS/Image.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": ["CWE-79"],
+          "correct_cwes": ["CWE-79"],
+          "missed_cwes": [],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 1,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "status": "exact_match",
+          "exact_match": true
+        },
+        {
+          "filename": "cwefixes/src/OFS/tests/testFileAndImage.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-79"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/reviewboard/reviews/templatetags/reviewtags.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-79"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/django/contrib/auth/tests/test_views.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-79"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/django/utils/http.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-79"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/django/contrib/admin/widgets.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-79"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/tests/admin_widgets/tests.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-79"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        }
+      ]
+    },
+    "codeql": {
+      "overall_metrics": {
+        "true_positives": 2,
+        "false_positives": 10,
+        "false_negatives": 23,
+        "partial_matches": 1,
+        "over_detections": 0,
+        "precision": 0.167,
+        "recall": 0.08,
+        "f1_score": 0.108
+      },
+      "summary_statistics": {
+        "total_files_analyzed": 25,
+        "exact_matches": 1,
+        "partial_matches": 1,
+        "complete_misses": 19,
+        "over_detections": 0
+      },
+      "detailed_results": [
+        {
+          "filename": "cwefixes/src/Products/PageTemplates/Expressions.py",
+          "ground_truth_cwes": ["CWE-22"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-22"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/src/Products/PageTemplates/expression.py",
+          "ground_truth_cwes": ["CWE-22"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-22"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/src/Products/PageTemplates/tests/testChameleonTalesExpressions.py",
+          "ground_truth_cwes": ["CWE-22"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-22"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/src/Products/PageTemplates/tests/testExpressions.py",
+          "ground_truth_cwes": ["CWE-22"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-22"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/src/Products/PageTemplates/tests/testHTMLTests.py",
+          "ground_truth_cwes": ["CWE-22"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-22"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/nova/image/s3.py",
+          "ground_truth_cwes": ["CWE-22"],
+          "predicted_cwes": ["CWE-22"],
+          "correct_cwes": ["CWE-22"],
+          "missed_cwes": [],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 1,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "status": "exact_match",
+          "exact_match": true
+        },
+        {
+          "filename": "cwefixes/django/contrib/postgres/aggregates/general.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-89"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/django/contrib/postgres/aggregates/mixins.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-89"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/tests/postgres_tests/test_aggregates.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-89"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/mod_fun/__init__.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-89"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/auth/controllers/group_controller.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": ["CWE-116", "CWE-79"],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-89"],
+          "extra_cwes": ["CWE-116", "CWE-79"],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 2,
+            "false_negatives": 1
+          },
+          "status": "all_wrong",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/auth/controllers/user_controller.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": ["CWE-116", "CWE-79"],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-89"],
+          "extra_cwes": ["CWE-116", "CWE-79"],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 2,
+            "false_negatives": 1
+          },
+          "status": "all_wrong",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/tests/test_integration.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-89"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/app.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": ["CWE-209", "CWE-497", "CWE-89"],
+          "correct_cwes": ["CWE-89"],
+          "missed_cwes": [],
+          "extra_cwes": ["CWE-209", "CWE-497"],
+          "metrics": {
+            "true_positives": 1,
+            "false_positives": 2,
+            "false_negatives": 0
+          },
+          "status": "partial_with_overdetection",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/redports-trac/redports/model.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-89"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/flair.py",
+          "ground_truth_cwes": ["CWE-89"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-89"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/src/Products/PageTemplates/ZRPythonExpr.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-79"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/src/Products/PageTemplates/tests/testZRPythonExpr.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-79"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/src/OFS/Image.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-79"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/src/OFS/tests/testFileAndImage.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-79"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/reviewboard/reviews/templatetags/reviewtags.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-79"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/django/contrib/auth/tests/test_views.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": ["CWE-20"],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-79"],
+          "extra_cwes": ["CWE-20"],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 1
+          },
+          "status": "all_wrong",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/django/utils/http.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": ["CWE-1333", "CWE-400", "CWE-730"],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-79"],
+          "extra_cwes": ["CWE-1333", "CWE-400", "CWE-730"],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 3,
+            "false_negatives": 1
+          },
+          "status": "all_wrong",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/django/contrib/admin/widgets.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-79"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        },
+        {
+          "filename": "cwefixes/tests/admin_widgets/tests.py",
+          "ground_truth_cwes": ["CWE-79"],
+          "predicted_cwes": [],
+          "correct_cwes": [],
+          "missed_cwes": ["CWE-79"],
+          "extra_cwes": [],
+          "metrics": {
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "status": "missed",
+          "exact_match": false
+        }
+      ]
+    }
+  }
+}

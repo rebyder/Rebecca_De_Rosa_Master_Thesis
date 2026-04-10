@@ -1,0 +1,7 @@
+paths:
+  query_pack_path: "~/.codeql/packages/codeql/python-queries/1.6.8/Security"
+  metadata_csv_path: "data/metadata.csv"
+  ground_truth_path: "data/ground_truth.json"
+  dataset_root: "data"
+  dataset_label: "data"
+  sarif_path: "results/analysis_report.sarif"

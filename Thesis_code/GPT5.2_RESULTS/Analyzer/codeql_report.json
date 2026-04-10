@@ -1,0 +1,1165 @@
+{
+  "data/endpoints/lollms_advanced.py": {
+    "filename": "cmd_injection/07__lollms_advanced.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 71
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 93
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 94
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 97
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 98
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 101
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 102
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 106
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 107
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 110
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 111
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 114
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 115
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 118
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 119
+      },
+      {
+        "cwe": "CWE-209",
+        "cwe_description": "No desciption",
+        "line": 124
+      },
+      {
+        "cwe": "CWE-497",
+        "cwe_description": "No desciption",
+        "line": 124
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 152
+      },
+      {
+        "cwe": "CWE-209",
+        "cwe_description": "No desciption",
+        "line": 167
+      },
+      {
+        "cwe": "CWE-497",
+        "cwe_description": "No desciption",
+        "line": 167
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 202
+      },
+      {
+        "cwe": "CWE-078",
+        "cwe_description": "No desciption",
+        "line": 202
+      },
+      {
+        "cwe": "CWE-088",
+        "cwe_description": "No desciption",
+        "line": 202
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 204
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 206
+      },
+      {
+        "cwe": "CWE-209",
+        "cwe_description": "No desciption",
+        "line": 214
+      },
+      {
+        "cwe": "CWE-497",
+        "cwe_description": "No desciption",
+        "line": 214
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 225
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 271
+      },
+      {
+        "cwe": "CWE-209",
+        "cwe_description": "No desciption",
+        "line": 303
+      },
+      {
+        "cwe": "CWE-497",
+        "cwe_description": "No desciption",
+        "line": 303
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 318
+      }
+    ],
+    "source": "codeql"
+  },
+  "data/app.py": {
+    "filename": "sqli/08__app.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-089",
+        "cwe_description": "No desciption",
+        "line": 49
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 49
+      },
+      {
+        "cwe": "CWE-209",
+        "cwe_description": "No desciption",
+        "line": 53
+      },
+      {
+        "cwe": "CWE-497",
+        "cwe_description": "No desciption",
+        "line": 53
+      },
+      {
+        "cwe": "CWE-089",
+        "cwe_description": "No desciption",
+        "line": 62
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 62
+      },
+      {
+        "cwe": "CWE-089",
+        "cwe_description": "No desciption",
+        "line": 79
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 79
+      },
+      {
+        "cwe": "CWE-089",
+        "cwe_description": "No desciption",
+        "line": 84
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 84
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 90
+      },
+      {
+        "cwe": "CWE-089",
+        "cwe_description": "No desciption",
+        "line": 102
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 102
+      },
+      {
+        "cwe": "CWE-089",
+        "cwe_description": "No desciption",
+        "line": 125
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 125
+      }
+    ],
+    "source": "codeql"
+  },
+  "data/Data/views.py": {
+    "filename": "cmd_injection/02__views.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 39
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 94
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 108
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 123
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 126
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 153
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 157
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 172
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 174
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 191
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 193
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 207
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 242
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 249
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 256
+      },
+      {
+        "cwe": "CWE-078",
+        "cwe_description": "No desciption",
+        "line": 256
+      },
+      {
+        "cwe": "CWE-088",
+        "cwe_description": "No desciption",
+        "line": 256
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 277
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 295
+      },
+      {
+        "cwe": "CWE-022",
+        "cwe_description": "No desciption",
+        "line": 295
+      },
+      {
+        "cwe": "CWE-023",
+        "cwe_description": "No desciption",
+        "line": 295
+      },
+      {
+        "cwe": "CWE-036",
+        "cwe_description": "No desciption",
+        "line": 295
+      },
+      {
+        "cwe": "CWE-073",
+        "cwe_description": "No desciption",
+        "line": 295
+      },
+      {
+        "cwe": "CWE-099",
+        "cwe_description": "No desciption",
+        "line": 295
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 311
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 335
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 336
+      },
+      {
+        "cwe": "CWE-078",
+        "cwe_description": "No desciption",
+        "line": 336
+      },
+      {
+        "cwe": "CWE-088",
+        "cwe_description": "No desciption",
+        "line": 336
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 354
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 357
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 362
+      },
+      {
+        "cwe": "CWE-022",
+        "cwe_description": "No desciption",
+        "line": 362
+      },
+      {
+        "cwe": "CWE-023",
+        "cwe_description": "No desciption",
+        "line": 362
+      },
+      {
+        "cwe": "CWE-036",
+        "cwe_description": "No desciption",
+        "line": 362
+      },
+      {
+        "cwe": "CWE-073",
+        "cwe_description": "No desciption",
+        "line": 362
+      },
+      {
+        "cwe": "CWE-099",
+        "cwe_description": "No desciption",
+        "line": 362
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 363
+      },
+      {
+        "cwe": "CWE-022",
+        "cwe_description": "No desciption",
+        "line": 363
+      },
+      {
+        "cwe": "CWE-023",
+        "cwe_description": "No desciption",
+        "line": 363
+      },
+      {
+        "cwe": "CWE-036",
+        "cwe_description": "No desciption",
+        "line": 363
+      },
+      {
+        "cwe": "CWE-073",
+        "cwe_description": "No desciption",
+        "line": 363
+      },
+      {
+        "cwe": "CWE-099",
+        "cwe_description": "No desciption",
+        "line": 363
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 379
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 380
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 388
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 416
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 419
+      },
+      {
+        "cwe": "CWE-022",
+        "cwe_description": "No desciption",
+        "line": 419
+      },
+      {
+        "cwe": "CWE-023",
+        "cwe_description": "No desciption",
+        "line": 419
+      },
+      {
+        "cwe": "CWE-036",
+        "cwe_description": "No desciption",
+        "line": 419
+      },
+      {
+        "cwe": "CWE-073",
+        "cwe_description": "No desciption",
+        "line": 419
+      },
+      {
+        "cwe": "CWE-099",
+        "cwe_description": "No desciption",
+        "line": 419
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 421
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 422
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 425
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 449
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 452
+      },
+      {
+        "cwe": "CWE-022",
+        "cwe_description": "No desciption",
+        "line": 452
+      },
+      {
+        "cwe": "CWE-023",
+        "cwe_description": "No desciption",
+        "line": 452
+      },
+      {
+        "cwe": "CWE-036",
+        "cwe_description": "No desciption",
+        "line": 452
+      },
+      {
+        "cwe": "CWE-073",
+        "cwe_description": "No desciption",
+        "line": 452
+      },
+      {
+        "cwe": "CWE-099",
+        "cwe_description": "No desciption",
+        "line": 452
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 454
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 455
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 456
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 458
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 464
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 465
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 466
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 475
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 476
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 482
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 483
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 484
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 487
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 509
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 529
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 535
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 536
+      },
+      {
+        "cwe": "CWE-078",
+        "cwe_description": "No desciption",
+        "line": 536
+      },
+      {
+        "cwe": "CWE-088",
+        "cwe_description": "No desciption",
+        "line": 536
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 557
+      },
+      {
+        "cwe": "CWE-022",
+        "cwe_description": "No desciption",
+        "line": 557
+      },
+      {
+        "cwe": "CWE-023",
+        "cwe_description": "No desciption",
+        "line": 557
+      },
+      {
+        "cwe": "CWE-036",
+        "cwe_description": "No desciption",
+        "line": 557
+      },
+      {
+        "cwe": "CWE-073",
+        "cwe_description": "No desciption",
+        "line": 557
+      },
+      {
+        "cwe": "CWE-099",
+        "cwe_description": "No desciption",
+        "line": 557
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 573
+      },
+      {
+        "cwe": "CWE-022",
+        "cwe_description": "No desciption",
+        "line": 573
+      },
+      {
+        "cwe": "CWE-023",
+        "cwe_description": "No desciption",
+        "line": 573
+      },
+      {
+        "cwe": "CWE-036",
+        "cwe_description": "No desciption",
+        "line": 573
+      },
+      {
+        "cwe": "CWE-073",
+        "cwe_description": "No desciption",
+        "line": 573
+      },
+      {
+        "cwe": "CWE-099",
+        "cwe_description": "No desciption",
+        "line": 573
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 589
+      },
+      {
+        "cwe": "CWE-022",
+        "cwe_description": "No desciption",
+        "line": 589
+      },
+      {
+        "cwe": "CWE-023",
+        "cwe_description": "No desciption",
+        "line": 589
+      },
+      {
+        "cwe": "CWE-036",
+        "cwe_description": "No desciption",
+        "line": 589
+      },
+      {
+        "cwe": "CWE-073",
+        "cwe_description": "No desciption",
+        "line": 589
+      },
+      {
+        "cwe": "CWE-099",
+        "cwe_description": "No desciption",
+        "line": 589
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 604
+      },
+      {
+        "cwe": "CWE-022",
+        "cwe_description": "No desciption",
+        "line": 604
+      },
+      {
+        "cwe": "CWE-023",
+        "cwe_description": "No desciption",
+        "line": 604
+      },
+      {
+        "cwe": "CWE-036",
+        "cwe_description": "No desciption",
+        "line": 604
+      },
+      {
+        "cwe": "CWE-073",
+        "cwe_description": "No desciption",
+        "line": 604
+      },
+      {
+        "cwe": "CWE-099",
+        "cwe_description": "No desciption",
+        "line": 604
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 620
+      },
+      {
+        "cwe": "CWE-022",
+        "cwe_description": "No desciption",
+        "line": 620
+      },
+      {
+        "cwe": "CWE-023",
+        "cwe_description": "No desciption",
+        "line": 620
+      },
+      {
+        "cwe": "CWE-036",
+        "cwe_description": "No desciption",
+        "line": 620
+      },
+      {
+        "cwe": "CWE-073",
+        "cwe_description": "No desciption",
+        "line": 620
+      },
+      {
+        "cwe": "CWE-099",
+        "cwe_description": "No desciption",
+        "line": 620
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 635
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 638
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 663
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 665
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 695
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 698
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 708
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 711
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 721
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 724
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 743
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 762
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 794
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 795
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 796
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 797
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 798
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 799
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 814
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 820
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 834
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 840
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 856
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 887
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 915
+      },
+      {
+        "cwe": "CWE-918",
+        "cwe_description": "No desciption",
+        "line": 919
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 921
+      }
+    ],
+    "source": "codeql"
+  },
+  "data/django/contrib/auth/tests/test_views.py": {
+    "filename": "xss/06__test_views.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-259",
+        "cwe_description": "No desciption",
+        "line": 41
+      },
+      {
+        "cwe": "CWE-321",
+        "cwe_description": "No desciption",
+        "line": 41
+      },
+      {
+        "cwe": "CWE-798",
+        "cwe_description": "No desciption",
+        "line": 41
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 167
+      },
+      {
+        "cwe": "CWE-259",
+        "cwe_description": "No desciption",
+        "line": 699
+      },
+      {
+        "cwe": "CWE-321",
+        "cwe_description": "No desciption",
+        "line": 699
+      },
+      {
+        "cwe": "CWE-798",
+        "cwe_description": "No desciption",
+        "line": 699
+      }
+    ],
+    "source": "codeql"
+  },
+  "data/tests/admin_widgets/tests.py": {
+    "filename": "xss/09__tests.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-259",
+        "cwe_description": "No desciption",
+        "line": 158
+      },
+      {
+        "cwe": "CWE-321",
+        "cwe_description": "No desciption",
+        "line": 158
+      },
+      {
+        "cwe": "CWE-798",
+        "cwe_description": "No desciption",
+        "line": 158
+      },
+      {
+        "cwe": "CWE-259",
+        "cwe_description": "No desciption",
+        "line": 172
+      },
+      {
+        "cwe": "CWE-321",
+        "cwe_description": "No desciption",
+        "line": 172
+      },
+      {
+        "cwe": "CWE-798",
+        "cwe_description": "No desciption",
+        "line": 172
+      },
+      {
+        "cwe": "CWE-259",
+        "cwe_description": "No desciption",
+        "line": 188
+      },
+      {
+        "cwe": "CWE-321",
+        "cwe_description": "No desciption",
+        "line": 188
+      },
+      {
+        "cwe": "CWE-798",
+        "cwe_description": "No desciption",
+        "line": 188
+      },
+      {
+        "cwe": "CWE-259",
+        "cwe_description": "No desciption",
+        "line": 481
+      },
+      {
+        "cwe": "CWE-321",
+        "cwe_description": "No desciption",
+        "line": 481
+      },
+      {
+        "cwe": "CWE-798",
+        "cwe_description": "No desciption",
+        "line": 481
+      },
+      {
+        "cwe": "CWE-259",
+        "cwe_description": "No desciption",
+        "line": 540
+      },
+      {
+        "cwe": "CWE-321",
+        "cwe_description": "No desciption",
+        "line": 540
+      },
+      {
+        "cwe": "CWE-798",
+        "cwe_description": "No desciption",
+        "line": 540
+      },
+      {
+        "cwe": "CWE-259",
+        "cwe_description": "No desciption",
+        "line": 597
+      },
+      {
+        "cwe": "CWE-321",
+        "cwe_description": "No desciption",
+        "line": 597
+      },
+      {
+        "cwe": "CWE-798",
+        "cwe_description": "No desciption",
+        "line": 597
+      },
+      {
+        "cwe": "CWE-259",
+        "cwe_description": "No desciption",
+        "line": 831
+      },
+      {
+        "cwe": "CWE-321",
+        "cwe_description": "No desciption",
+        "line": 831
+      },
+      {
+        "cwe": "CWE-798",
+        "cwe_description": "No desciption",
+        "line": 831
+      }
+    ],
+    "source": "codeql"
+  },
+  "data/auth/controllers/group_controller.py": {
+    "filename": "sqli/05__group_controller.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 70
+      },
+      {
+        "cwe": "CWE-079",
+        "cwe_description": "No desciption",
+        "line": 75
+      },
+      {
+        "cwe": "CWE-116",
+        "cwe_description": "No desciption",
+        "line": 75
+      }
+    ],
+    "source": "codeql"
+  },
+  "data/auth/controllers/user_controller.py": {
+    "filename": "sqli/06__user_controller.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-079",
+        "cwe_description": "No desciption",
+        "line": 50
+      },
+      {
+        "cwe": "CWE-116",
+        "cwe_description": "No desciption",
+        "line": 50
+      },
+      {
+        "cwe": "CWE-020",
+        "cwe_description": "No desciption",
+        "line": 70
+      }
+    ],
+    "source": "codeql"
+  },
+  "data/django/utils/http.py": {
+    "filename": "xss/10__http.py",
+    "vulnerabilities": [
+      {
+        "cwe": "CWE-1333",
+        "cwe_description": "No desciption",
+        "line": 21
+      },
+      {
+        "cwe": "CWE-730",
+        "cwe_description": "No desciption",
+        "line": 21
+      },
+      {
+        "cwe": "CWE-400",
+        "cwe_description": "No desciption",
+        "line": 21
+      }
+    ],
+    "source": "codeql"
+  }
+}

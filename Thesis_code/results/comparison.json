@@ -1,0 +1,492 @@
+{
+  "file_by_file": [
+    {
+      "filename": "data/src/lib/Bcfg2/Server/Plugins/Trigger.py",
+      "ground_truth_cwes": [
+        "CWE-78"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-22",
+        "CWE-78"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "partial_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-78"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/Data/views.py",
+      "ground_truth_cwes": [
+        "CWE-78"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-22",
+        "CWE-404",
+        "CWE-434",
+        "CWE-78"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "partial_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-78"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/web/reNgine/common_func.py",
+      "ground_truth_cwes": [
+        "CWE-78"
+      ],
+      "agent_cwes": [
+        "CWE-119",
+        "CWE-20",
+        "CWE-200",
+        "CWE-22",
+        "CWE-74",
+        "CWE-78"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "partial_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-78"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/cookiecutter/vcs.py",
+      "ground_truth_cwes": [
+        "CWE-78"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-22",
+        "CWE-78"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "partial_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-78"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/IPython/utils/terminal.py",
+      "ground_truth_cwes": [
+        "CWE-78"
+      ],
+      "agent_cwes": [
+        "CWE-78"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "exact_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-78"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/endpoints/lollms_advanced.py",
+      "ground_truth_cwes": [
+        "CWE-78"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-22",
+        "CWE-601",
+        "CWE-77",
+        "CWE-78",
+        "CWE-94"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "partial_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-78"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/autogpts/autogpt/autogpt/commands/execute_code.py",
+      "ground_truth_cwes": [
+        "CWE-78"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-22",
+        "CWE-78",
+        "CWE-94"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "partial_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-78"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/django/contrib/postgres/aggregates/general.py",
+      "ground_truth_cwes": [
+        "CWE-89"
+      ],
+      "agent_cwes": [],
+      "codeql_cwes": [],
+      "agent_status": "missed",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [],
+      "codeql_correct_cwes": [],
+      "agreement": true
+    },
+    {
+      "filename": "data/django/contrib/postgres/aggregates/mixins.py",
+      "ground_truth_cwes": [
+        "CWE-89"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-89"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "partial_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-89"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/tests/postgres_tests/test_aggregates.py",
+      "ground_truth_cwes": [
+        "CWE-89"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-74",
+        "CWE-89"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "partial_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-89"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/mod_fun/__init__.py",
+      "ground_truth_cwes": [
+        "CWE-89"
+      ],
+      "agent_cwes": [
+        "CWE-89"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "exact_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-89"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/auth/controllers/group_controller.py",
+      "ground_truth_cwes": [
+        "CWE-89"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-89"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "partial_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-89"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/auth/controllers/user_controller.py",
+      "ground_truth_cwes": [
+        "CWE-89"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-400",
+        "CWE-74",
+        "CWE-89"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "partial_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-89"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/tests/test_integration.py",
+      "ground_truth_cwes": [
+        "CWE-89"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-74"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "wrong",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/app.py",
+      "ground_truth_cwes": [
+        "CWE-89"
+      ],
+      "agent_cwes": [
+        "CWE-89"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "exact_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-89"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/redports-trac/redports/model.py",
+      "ground_truth_cwes": [
+        "CWE-89"
+      ],
+      "agent_cwes": [
+        "CWE-89"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "exact_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-89"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/flair.py",
+      "ground_truth_cwes": [
+        "CWE-89"
+      ],
+      "agent_cwes": [
+        "CWE-89"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "exact_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-89"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/src/Products/PageTemplates/ZRPythonExpr.py",
+      "ground_truth_cwes": [
+        "CWE-79"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-77",
+        "CWE-94"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "wrong",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/src/Products/PageTemplates/tests/testZRPythonExpr.py",
+      "ground_truth_cwes": [
+        "CWE-79"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-74"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "wrong",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/src/OFS/Image.py",
+      "ground_truth_cwes": [
+        "CWE-79"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-200",
+        "CWE-22",
+        "CWE-601",
+        "CWE-74"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "wrong",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/src/OFS/tests/testFileAndImage.py",
+      "ground_truth_cwes": [
+        "CWE-79"
+      ],
+      "agent_cwes": [
+        "CWE-125",
+        "CWE-20",
+        "CWE-22",
+        "CWE-434",
+        "CWE-79"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "partial_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-79"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/reviewboard/reviews/templatetags/reviewtags.py",
+      "ground_truth_cwes": [
+        "CWE-79"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-79",
+        "CWE-89"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "partial_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-79"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/django/contrib/auth/tests/test_views.py",
+      "ground_truth_cwes": [
+        "CWE-79"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-307",
+        "CWE-352",
+        "CWE-601",
+        "CWE-74"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "wrong",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/django/utils/http.py",
+      "ground_truth_cwes": [
+        "CWE-79"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-74",
+        "CWE-79"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "partial_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-79"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/django/contrib/admin/widgets.py",
+      "ground_truth_cwes": [
+        "CWE-79"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-79"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "partial_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-79"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    },
+    {
+      "filename": "data/tests/admin_widgets/tests.py",
+      "ground_truth_cwes": [
+        "CWE-79"
+      ],
+      "agent_cwes": [
+        "CWE-20",
+        "CWE-22",
+        "CWE-74",
+        "CWE-79",
+        "CWE-89"
+      ],
+      "codeql_cwes": [],
+      "agent_status": "partial_match",
+      "codeql_status": "missed",
+      "agent_correct_cwes": [
+        "CWE-79"
+      ],
+      "codeql_correct_cwes": [],
+      "agreement": false
+    }
+  ],
+  "summary": {
+    "total_files": 26,
+    "exact_agree": 1,
+    "agree_rate": 0.038461538461538464,
+    "both_correct": 0,
+    "both_correct_rate": 0.0
+  }
+}

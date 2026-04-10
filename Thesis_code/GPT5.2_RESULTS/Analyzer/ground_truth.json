@@ -1,0 +1,80 @@
+{
+  "data/src/lib/Bcfg2/Server/Plugins/Trigger.py": [
+    "CWE-78"
+  ],
+  "data/Data/views.py": [
+    "CWE-78"
+  ],
+  "data/web/reNgine/common_func.py": [
+    "CWE-78"
+  ],
+  "data/cookiecutter/vcs.py": [
+    "CWE-78"
+  ],
+  "data/IPython/utils/terminal.py": [
+    "CWE-78"
+  ],
+  "data/endpoints/lollms_advanced.py": [
+    "CWE-78"
+  ],
+  "data/autogpts/autogpt/autogpt/commands/execute_code.py": [
+    "CWE-78"
+  ],
+  "data/django/contrib/postgres/aggregates/general.py": [
+    "CWE-89"
+  ],
+  "data/django/contrib/postgres/aggregates/mixins.py": [
+    "CWE-89"
+  ],
+  "data/tests/postgres_tests/test_aggregates.py": [
+    "CWE-89"
+  ],
+  "data/mod_fun/__init__.py": [
+    "CWE-89"
+  ],
+  "data/auth/controllers/group_controller.py": [
+    "CWE-89"
+  ],
+  "data/auth/controllers/user_controller.py": [
+    "CWE-89"
+  ],
+  "data/tests/test_integration.py": [
+    "CWE-89"
+  ],
+  "data/app.py": [
+    "CWE-89"
+  ],
+  "data/redports-trac/redports/model.py": [
+    "CWE-89"
+  ],
+  "data/flair.py": [
+    "CWE-89"
+  ],
+  "data/src/Products/PageTemplates/ZRPythonExpr.py": [
+    "CWE-79"
+  ],
+  "data/src/Products/PageTemplates/tests/testZRPythonExpr.py": [
+    "CWE-79"
+  ],
+  "data/src/OFS/Image.py": [
+    "CWE-79"
+  ],
+  "data/src/OFS/tests/testFileAndImage.py": [
+    "CWE-79"
+  ],
+  "data/reviewboard/reviews/templatetags/reviewtags.py": [
+    "CWE-79"
+  ],
+  "data/django/contrib/auth/tests/test_views.py": [
+    "CWE-79"
+  ],
+  "data/django/utils/http.py": [
+    "CWE-79"
+  ],
+  "data/django/contrib/admin/widgets.py": [
+    "CWE-79"
+  ],
+  "data/tests/admin_widgets/tests.py": [
+    "CWE-79"
+  ]
+}
